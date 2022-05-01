@@ -1,0 +1,70 @@
+.cdback{
+    background-color: white;
+}
+
+.cdback2{
+    background-color: black;
+}
+
+.cdback3{
+    background-color: red;
+}
+
+.topdict{
+    margin-top: 20px;
+}
+
+.videoborder{
+    
+}
+
+.cdback4{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+html{
+    --linecolor: black;
+    --linewid: 3px;
+    --linestyle: dotted;
+}
+
+.contsize{
+
+
+}
+
+.vl{
+
+    border-left: var(--linewid) var(--linestyle) var(--linecolor);
+    border-right: var(--linewid) var(--linestyle) var(--linecolor);
+    border-bottom: var(--linewid) var(--linestyle) var(--linecolor);
+    
+}
+
+.carddesctitlefont{
+    font-family: Mistral, serif;
+    font-size: 50px;
+}
+
+.carddescfont{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+}
+
+
+.desctop{
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 770px){
+video{
+    width: 100%;
+}
+
+    .carddesctitlefont{
+        font-family: Mistral, serif;
+        font-size: 30px;
+    }
+
+
+}

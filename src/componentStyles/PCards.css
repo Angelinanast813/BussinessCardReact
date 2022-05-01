@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Handlee&family=Monoton&family=Orbitron&family=Saira:wght@300&family=Special+Elite&family=Varta:wght@300&display=swap');
+@font-face {
+    font-family: Wrestlemania;
+    src: url("fonts/18329.ttf");
+}
+@font-face {
+    font-family: Dnevnik;
+    src: url("fonts/Dnevnik.ttf");
+}
+@font-face {
+    font-family: Hanging Letters;
+    src: url("fonts/Hanging Letters.ttf");
+}
+@font-face {
+    font-family: VCR OSD;
+    src: url("fonts/VCR OSD.ttf");
+}
+@font-face {
+    font-family: RUSCheap stealer;
+    src: url("fonts/RUSCheap stealer.ttf");
+}
+
+
+
+.cardstyle1{
+ margin: 10px;
+}
+
+.cardstyle1:hover{
+ transform: scale(1.05);
+}
+
+.link{
+    color: black;
+}
+.link:hover{
+    color: darkorange;
+    text-decoration: none;
+}
+
+.videoborder{
+ border-radius: 3px;
+}
+/*One of styles for card title font*/
+.cardtitle{
+ /*font-family: Gabriola, serif;*/
+  /*  font-family: Mistral, serif;*/
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 5px;
+}
+
+.carddesc{
+ font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+
+}
+
+.bgimage{
+ /*background-image: url("images/back2.png");
+ background-size: 380px 220px;*/
+ background-color: rgba(7,7,7,0.96);
+ border: black solid;
+ box-shadow: 0 0 100px rgba(0,0,0,0.9) ;
+}
+
+
+
+.bgimage2{
+ /*background-image: url("images/back4.jpg");*/
+ /*background-color: rgba(7,7,7,0.91);
+ background-size: 1000px 720px;*/
+ background-image: url("images/back2.png");
+ background-size: 380px 220px;
+}
+
+.card{
+
+}
+
+@media screen and (max-width: 600px){
+    .card p{
+        font-size: 100%;
+    }
+}

@@ -1,0 +1,187 @@
+.text{
+    
+}
+
+.descpod{
+    margin-top: -150px;
+
+}
+
+.descstyle1{
+
+}
+
+.fselite{
+    font-family: "Special Elite", serif;
+}
+
+.fsmonoton{
+    font-family: "Saira", cursive;
+}
+.fshandlee{
+    font-family: "Handlee", cursive;
+}
+
+.biostyle3{
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+.borderstyle1{
+
+    border-radius: 20px 20px 0 0;
+}
+
+.style1{
+    font-family: "Arial", serif;
+
+}
+
+.style2{
+    font-family: estrangelo edessa serif cursive;
+}
+
+
+
+.bioPhoto{
+ /*   position: absolute;
+    width: 170px;
+    height: 200px;
+    top: -120px;
+    */
+    width: 170px;
+    height: 200px;
+    margin-top: -120px;
+
+}
+
+.bgbiopict{
+
+}
+
+.blockdescmarg{
+
+}
+
+.picBorder{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5) ;
+    padding: 10px;
+}
+
+.pos{
+    margin-bottom: 50px;
+}
+
+.biostyle3text{
+
+}
+/*.shadow{
+    background: #282c34;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5) ;
+    padding: 10px;
+}*/
+
+.mainbg{
+    background-color: white;
+}
+
+html{
+    --textcolor: white;
+    --bgcolor: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
+
+@media screen and (max-width: 770px) {
+
+
+
+    .blockdescmarg{
+       margin-top: 15px;
+    }
+
+    .bioPhoto{
+        /*   position: absolute;
+           width: 170px;
+           height: 200px;
+           top: -120px;
+           */
+        margin-top: 0px;
+        width: 170px;
+        height: 200px;
+
+    }
+
+
+
+    .biostyle3{
+        background-color: white;
+
+    }
+
+    .descpod{
+        margin-top: 0px;
+
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 770px){
+    .bioPhoto{
+        /*   position: absolute;
+           width: 170px;
+           height: 200px;
+           top: -120px;
+           */
+        margin-top: -120px;
+        width: 170px;
+        height: 200px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 600px){
+
+    .mainbg{
+        background-image: url("images/back2.png");
+    }
+
+    .biostyle3text{
+        background-color: var(--bgcolor);
+
+    }
+
+    .bgbiopict{
+      /*  background-image: url("images/back1.jpg"); */
+
+    }
+
+    .borderstyle1{
+        border-radius: 0 0 0 0;
+    }
+
+    .picBorder{
+        box-shadow: 0 0 10px black ;
+        border-color: black;
+        padding: 10px;
+    }
+
+    .descstyle1{
+        margin-top: 10px;
+        color: var(--textcolor);
+
+    }
+
+
+
+    .bioPhoto{
+        content: url("images/bio6.jpg");
+
+    }
+}

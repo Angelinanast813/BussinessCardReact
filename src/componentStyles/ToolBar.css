@@ -1,0 +1,164 @@
+
+.menu{
+    color: white;
+    margin-left: 15%;
+
+
+}
+
+
+.menu li{
+    padding: inherit;
+    display: inline;
+
+}
+
+.back{
+    padding-top: 10px;
+    padding-bottom: 1px;
+    margin-bottom: 10px;
+    background: black;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover{
+    color: gold;
+}
+
+
+
+
+
+
+
+
+.extra {
+
+
+}
+
+
+.limarg{
+
+}
+
+
+li img{
+    width: 40px;
+    height: 40px;
+}
+
+/* Добавьте черный цвет фона в верхнюю панель навигации. */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+
+}
+
+/* Стиль ссылок внутри панели навигации */
+.topnav li {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Изменить цвет ссылок при наведении */
+.topnav li:hover {
+    background-color: black;
+    color: black;
+}
+
+/* Добавьте активный класс, чтобы выделить текущую страницу */
+.topnav li.active {
+    background-color: black;
+    color: white;
+}
+
+/* Скройте ссылку, которая должна открывать и закрывать topnav на маленьких экранах */
+.topnav .icon {
+    display: none;
+}
+
+.menuimg{
+    margin-top: -19px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: -14px;
+}
+
+.menubar{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Если ширина экрана меньше 600 пикселей, скрыть все ссылки, кроме первой («Home»). Показать ссылку, которая должна открывать и закрывать topnav (.icon) */
+@media screen and (max-width: 754px) {
+    .topnav li:not(:first-child) {display: none;}
+    .topnav li.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav li {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 6px 0px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .extra {
+
+        opacity: 0;
+        height: 0;
+        display: none;
+        text-indent: -9999px;
+
+    }
+
+    .menu{
+        color: white;
+        margin-left: 0%;
+    }
+
+    .limarg{
+
+    }
+
+
+}
+
+/* Класс «responsive» добавляется в topnav с помощью JavaScript, когда пользователь нажимает на иконку. Этот класс заставляет topnav хорошо выглядеть на маленьких экранах (отображать ссылки вертикально, а не горизонтально) */
+@media screen and (max-width: 750px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive li {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .menuimg{
+        margin-top: -10px;
+
+        margin-bottom: -2px;
+    }
+}

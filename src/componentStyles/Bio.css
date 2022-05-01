@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Glegoo&family=Handlee&family=Monoton&family=Orbitron&family=Saira:wght@300&family=Special+Elite&family=Varta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kaushan+Script&family=Pathway+Gothic+One&family=Shadows+Into+Light&display=swap');
+
+.card{
+    width: 203px;
+  /*  height: 200px; */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5) ;
+    padding: 0px;
+}
+
+p{
+
+}
+
+.fspath{
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.fshide{
+    font-family: Hind, sans-serif;
+}
+
+.fsbaloo{
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.fsglegoo{
+    font-family: 'Glegoo', serif;
+}
+
+.zindex{
+    z-index: 100;
+}
+
+h2{
+    margin-bottom: 30px;
+
+}
+
+.biostyle1{
+    font-family: estrangelo edessa, serif;
+}
+
+.bioopas{
+    width: 1250px;
+    margin: 0 auto;
+    background: rgba(255,255,255, 0.5);
+}
+
+.aboutblockcolor{
+
+}
+
+.biotop{
+margin-top: 0px;
+}
+
+.bgwhite{
+
+}
+
+.bgwhite2{
+
+}
+
+
+@media screen and (max-width: 990px) {
+    .biotop{
+        margin-top: 15px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px){
+    .aboutblockcolor{
+      background-color: var(--bgcolor);
+    }
+
+    .bgwhite2{
+        background-color: rgba(217, 217, 217, 0.8);
+    }
+
+    .lptop{
+        padding-top: 20px;
+    }
+
+    .aboutbot{
+        padding-bottom: 15px;
+    }
+
+    .abouttop{
+        padding-top: 15px;
+    }
+}
+
+@media screen and (min-width: 601px){
+    .bgwhite{
+      background-color: white;
+    }
+
+    .margtop{
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 767px){
+
+
+
+}

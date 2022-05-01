@@ -1,0 +1,41 @@
+
+
+.font {
+    color: black;
+    font-family: "Special Elite", serif;
+    font-size: 23px;
+
+}
+
+.annBack{
+    margin-top: 10px;
+    margin-left: 15%;
+    background: white;
+
+}
+
+.titleblockcolor{
+
+}
+
+@media screen and (max-width: 1200px) {
+    .annBack{
+
+        margin-left: 0%;
+        background: white;
+
+    }
+}
+
+@media screen and (max-width: 600px){
+    .annBack{
+        margin-left: 0%;
+        background: var(--bgcolor);
+    }
+
+    .font {
+        color: white;
+        font-family: "Special Elite", serif;
+        font-size: 23px;
+    }
+}

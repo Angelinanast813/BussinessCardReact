@@ -1,0 +1,42 @@
+
+
+:root{
+    --marginfooter: 30px;
+}
+
+.footer{
+    background: black;
+    padding: 10px;
+    margin: 20px 0 0 0;
+
+
+}
+
+.fontstyle2{
+    color: white;
+    margin-left: var(--marginfooter);
+    margin-bottom: var(--marginfooter);
+}
+
+.fontfooter{
+    color: white;
+    margin: var(--marginfooter) 0 10px var(--marginfooter);
+
+}
+
+.logoset{
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+.iconstyle{
+    width: 30px;
+    height: 30px;
+    margin: calc(var(--marginfooter)*2) 20px var(--marginfooter) 20px ;
+}
+
+
+.iconstyle:hover{
+    transform: scale(1.09);
+}
